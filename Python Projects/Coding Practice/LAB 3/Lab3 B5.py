@@ -1,0 +1,1 @@
+print(f"Baa, baa, black sheep, have you any wool?\n\t\tYes, sir, yes, sir, three bags full\nOne for the master, one for the dame\n\t\tOne for the little boy who lives down the lane\n\tBaa, baa, black sheep, have you any wool?\nYes, sir, yes, sir, three bags full")

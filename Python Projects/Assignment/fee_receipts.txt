@@ -1,0 +1,36 @@
+
+                    -------------------------------
+                    Tuition Fee Receipt
+                    -------------------------------
+                    Student ID: TP085600
+                    Name: Haiya
+                    Total Tuition Fee: 500.00
+                    Paid Amount: 5000.00
+                    Outstanding Amount: -4500.00
+                    Date: 2025-01-19 20:46:51
+                    -------------------------------
+                    
+
+                    -------------------------------
+                    Tuition Fee Receipt
+                    -------------------------------
+                    Student ID: TP086700
+                    Name: Raif
+                    Total Tuition Fee: 500.00
+                    Paid Amount: 0.00
+                    Outstanding Amount: 500.00
+                    Date: 2025-01-19 21:38:17
+                    -------------------------------
+                    
+
+                    -------------------------------
+                    Tuition Fee Receipt
+                    -------------------------------
+                    Student ID: TP085310
+                    Name: Afi
+                    Total Tuition Fee: 1200.00
+                    Paid Amount: 100.00
+                    Outstanding Amount: 1100.00
+                    Date: 2025-01-19 23:29:04
+                    -------------------------------
+                    

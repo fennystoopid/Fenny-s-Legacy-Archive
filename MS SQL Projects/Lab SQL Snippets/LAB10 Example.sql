@@ -1,0 +1,77 @@
+---1
+SELECT * FROM student 
+WHERE GENDER = 'FEMALE' 
+AND 
+COURSEID = (SELECT COURSEID FROM course WHERE NAME = 'Degree')
+ORDER BY name DESC;
+
+SELECT * FROM STUDENT
+INNER JOIN COURSE on STUDENT.COURSEID = COURSE.COURSEID
+WHERE GENDER = 'FEMALE' AND course.name = 'Degree'
+ORDER BY student.name ASC;
+
+--2
+SELECT * FROM SUBJECT
+WHERE 
+COURSEID = (SELECT COURSEID FROM COURSE WHERE EntryQualification = '5 credits in O Level')
+ORDER BY name ASC;
+
+SELECT * FROM SUBJECT
+INNER JOIN COURSE on SUBJECT.COURSEID = COURSE.COURSEID
+WHERE EntryQualification = '5 credits in O Level'
+ORDER BY SUBJECT.name ASC;
+
+--3
+SELECT * FROM SUBJECT
+WHERE
+COURSEID in (SELECT COURSEID FROM COURSE WHERE name in ('Degree','Master'));
+
+SELECT * FROM SUBJECT
+INNER JOIN COURSE on subject.courseid = course.courseid
+WHERE
+course.name in ('Degree','Master');
+
+--4
+SELECT CourseID , COUNT(name) AS TotalSubjects
+FROM SUBJECT
+GROUP BY CourseID;
+
+---5
+SELECT CourseID, COUNT(Name) AS TotalStudents
+FROM STUDENT
+GROUP BY CourseID;
+
+---6
+SELECT Name, DATEDIFF(year,DOB,getdate()) AS Age
+FROM STUDENT
+WHERE DATEDIFF(year,DOB,getdate()) > 
+(SELECT AVG(DATEDIFF(year,DOB,getdate())) FROM STUDENT);
+
+---7
+SELECT *, DATEDIFF(year,DOB,getdate()) AS Age
+FROM STUDENT
+ORDER BY DATEDIFF(year,DOB,getdate()) DESC; 
+
+--8
+SELECT *
+FROM COURSE
+WHERE COURSEID in (SELECT courseid FROM STUDENT
+GROUP BY CourseID
+HAVING COUNT(student.name) > 1);
+
+---9
+SELECT *
+FROM COURSE
+WHERE COURSEID in (SELECT courseid FROM SUBJECT
+GROUP BY CourseID
+HAVING COUNT(subject.name) = 1);
+
+
+
+
+
+
+
+
+
+

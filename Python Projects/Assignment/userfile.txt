@@ -1,0 +1,3 @@
+username,password,role
+username,password,user
+Afi,Afi,admin

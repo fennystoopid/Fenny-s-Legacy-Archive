@@ -1,0 +1,40 @@
+TP123456,Excellent progress in programming concepts.
+TP123457,Needs improvement in analytical thinking.
+TP123458,Great participation in group projects.
+TP123459,Struggles with meeting deadlines.
+TP123460,Excellent performance in assignments.
+TP123461,Good understanding of cybersecurity principles.
+TP123462,Needs better time management skills.
+TP123463,Outstanding creativity in game design.
+TP123464,Excels in teamwork and collaboration.
+TP123465,Shows leadership qualities.
+TP123466,Needs to focus on academic writing skills.
+TP123467,Great enthusiasm in robotics projects.
+TP123468,Requires improvement in oral presentations.
+TP123469,Exceptional problem-solving skills.
+TP123470,Needs to participate more in class discussions.
+TP123471,Very good grasp of machine learning techniques.
+TP123472,Needs to strengthen mathematical foundations.
+TP123473,Excellent coding skills.
+TP123474,Needs consistent attendance.
+TP123475,Performs exceptionally in AI projects.
+TP123476,Good understanding of database systems.
+TP123477,Needs to improve project documentation skills.
+TP123478,Great presentation skills.
+TP123479,Needs to work on punctuality.
+TP123480,Excellent performance in cloud computing.
+TP123481,Requires improvement in teamwork.
+TP123482,Shows exceptional interest in blockchain technology.
+TP123483,Needs to participate more actively in group activities.
+TP123484,Consistent and reliable in submissions.
+TP123485,Good grasp of IoT concepts.
+TP123486,Needs to work on research skills.
+TP123487,Excellent communication skills.
+TP123488,Struggles with software testing concepts.
+TP123489,Very innovative in VR projects.
+TP123490,Needs to improve time management.
+TP123491,Great understanding of ethics in technology.
+TP123492,Exceptional focus on augmented reality.
+TP123493,Requires improvement in problem-solving techniques.
+TP123494,Outstanding creativity in fintech solutions.
+TP123456,I hate this 

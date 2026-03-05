@@ -1,0 +1,5 @@
+In this tutorial, you'll learn file handling in Python, file operations such as opening a file,
+reading from it, writing into it, closing it, renaming a file, deleting a file, and various file methods.
+
+To store data temporarily and permanently, we use files.
+A file is the collection of data stored on a disk in one unit identified by filename.
